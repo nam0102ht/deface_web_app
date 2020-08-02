@@ -1,0 +1,1 @@
+sudo docker run --name my-redis-container -p 7001:6379 -d redis
