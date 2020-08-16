@@ -1,7 +1,7 @@
 {
   "name": "deface_web",
   "version": "1.0.0",
-  "description": "",
+  "description": "Run docker file and please run docker run redis and Dockerfile before run app",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -20,5 +20,14 @@
     "socket.io-redis": "^5.3.0",
     "uid": "^1.0.0",
     "uuid": "^8.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nam0102ht/deface_web_app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nam0102ht/deface_web_app/issues"
+  },
+  "homepage": "https://github.com/nam0102ht/deface_web_app#readme"
 }

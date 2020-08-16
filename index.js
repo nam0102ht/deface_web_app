@@ -63,6 +63,6 @@ io.on("connection", (socket) => {
       socket.emit("notification", { status: "Deface" });
   });
 });
-http.listen(4000, () => {
+http.listen(4000, (req, res) => {
   console.log("listening on *:4000");
 });
